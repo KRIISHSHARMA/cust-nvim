@@ -34,4 +34,5 @@ sudo mv nvim.appimage /usr/bin/nvim
      ``` sh
      git clone https://github.com/LazyVim/starter ~/.config/nvim
      ```
-   - 
+  
+![image](https://github.com/KRIISHSHARMA/cust-nvim/assets/86760658/fa0c2315-d4f7-4e8c-b68b-421ef760b839)
