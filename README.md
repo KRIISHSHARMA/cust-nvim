@@ -1,5 +1,5 @@
 # cust-nvim (LAZYVIM)
-- Download nvim.appimage THEN 
+- [Download nvim.appimage](https://github.com/neovim/neovim/releases/download/stable/nvim.appimage) THEN 
 ``` sh
 chmod u+x nvim.appimage && ./nvim.appimage
 ``` 
