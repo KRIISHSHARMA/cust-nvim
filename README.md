@@ -36,3 +36,14 @@ sudo mv nvim.appimage /usr/bin/nvim
      ```
   
 ![image](https://github.com/KRIISHSHARMA/cust-nvim/assets/86760658/fa0c2315-d4f7-4e8c-b68b-421ef760b839)
+
+# CHEATSHEET (space key is the leader)
+- opening and closing side bar : spacekey + e
+- renaming / deleting file : r/n
+- navigating files : spacekey + f + f ( to escape press esc + esc ) (for more press spacekey + f to see more related commands)
+- to reach top : gg
+- to reach bottom : G
+- to fastforward  : e
+- start of line : 0
+- to search a file : spacekey + s + g (or spacekey+ s to view other related commands)
+- 
