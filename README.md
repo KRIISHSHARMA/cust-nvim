@@ -1,8 +1,23 @@
 # cust-nvim (LAZYVIM)
-- [Download nvim.appimage](https://github.com/neovim/neovim/releases/download/stable/nvim.appimage) THEN 
+## FIRST INSTALL NEOVIM (in ubuntu)
+- [Download nvim.appimage](https://github.com/neovim/neovim/releases/download/stable/nvim.appimage) 
+-  cd to the place you have downloaded the image
+-  then chmod to give sudo privilege
 ``` sh
-chmod u+x nvim.appimage && ./nvim.appimage
+ chmod u+x nvim.appimage
+```
+``` sh
+./nvim.appimage
+```
+- Now when you run nvim youll face an error
+``` sh
+bash: /usr/bin/nvim: No such file or directory
+```
+- To combat this , move appimage into /usr/bin/nvim
+``` sh
+sudo mv nvim.appimage /usr/bin/nvim
 ``` 
+
 1.  Requirements ⭐
    - latest nvim >=v0.9.0
    - latest git >=2.19.0
